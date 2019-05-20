@@ -4,7 +4,7 @@ using namespace std;
 
 // Complete the hourglassSum function below.
 int hourglassSum(vector<vector<int>> arr) {
-  int i = 0, j = 0, max = -100, sum = 0;
+  int i = 0, j = 0, max = -2147483648, sum = 0;
 
   for (i = 0; i < 4; i++) {
 
