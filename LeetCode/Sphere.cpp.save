@@ -1,0 +1,15 @@
+#include<iostream>
+#include<stdio.h>
+#include<iomanip>
+#include <math.h>
+using namespace std;
+int main(){
+    float radious;
+    scanf("%lf",&radious);
+    cout<<"VOLUME = "<<fixed<< setprecision(3)<<((4 /3.0 ) * 3.14159 * pow(radious,3))
+    <<endl;
+return 0;
+}
+
+
+
