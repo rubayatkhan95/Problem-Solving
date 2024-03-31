@@ -29,6 +29,7 @@ for (let i = 0; i < sortedArray.length-2; i++) {
         if(sortedArray[i]+sortedArray[j]+sortedArray[k]>0){
             k--;
         } else if(sortedArray[i]+sortedArray[j]+sortedArray[k] == 0){
+            // console.log(i,j,k ,[sortedArray[i],sortedArray[j],sortedArray[k]])
             newSet.add([nums[i], nums[j], nums[k]].toString());
             k--;
         }else{
